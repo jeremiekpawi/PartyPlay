@@ -1,0 +1,161 @@
+export const fr = {
+  brand: 'PartyPlay',
+  nav: {
+    home: 'Accueil',
+    howItWorks: 'Fonctionnement',
+    miniGame: 'Dessine & Devine',
+    install: 'Installer',
+    playCta: 'Jouer maintenant',
+    profileTab: 'Profil',
+    roomTab: 'Salles',
+  },
+  hero: {
+    kicker: '2 à 6 joueurs · Sans inscription · Mobile et ordinateur',
+    title: 'Retrouvez vos amis dans un salon 3D et jouez en direct.',
+    subtitle:
+      'Créez une salle privée en quelques secondes, partagez votre code d’invitation et lancez une partie de Dessine et Devine depuis votre navigateur ou l’application Android.',
+    primaryCta: 'Jouer maintenant',
+    secondaryCta: 'Rejoindre une salle',
+    lobbyCaptionTitle: 'Salon virtuel 3D',
+    lobbyCaptionText:
+      'Un espace accueillant conçu pour rester fluide à 30+ FPS même sur smartphone Android modeste.',
+  },
+  howItWorks: {
+    heading: 'Comment démarrer une partie',
+    subheading: 'Trois étapes simples pour réunir votre groupe sans créer de compte.',
+    steps: [
+      {
+        num: '01.',
+        title: 'Choisissez votre profil invité',
+        description:
+          'Indiquez votre pseudonyme, sélectionnez un avatar stylisé et sa couleur. Aucune inscription ni mot de passe requis.',
+      },
+      {
+        num: '02.',
+        title: 'Créez ou rejoignez une salle privée',
+        description:
+          'Générez un code à 6 caractères pour inviter entre 2 et 6 amis, ou saisissez le code reçu pour entrer immédiatement.',
+      },
+      {
+        num: '03.',
+        title: 'Jouez dans le lobby 3D en temps réel',
+        description:
+          'Retrouvez vos amis autour de la table virtuelle, lancez la manche et accumulez des points grâce à votre rapidité.',
+      },
+    ],
+  },
+  miniGame: {
+    kicker: 'Premier mini-jeu du MVP · Manches rapides',
+    heading: 'Dessine et Devine',
+    description:
+      'À tour de rôle, un joueur reçoit un mot secret envoyé uniquement sur son écran et le dessine en direct pendant que les autres tentent de le trouver le plus vite possible.',
+    rules: [
+      'Crayon, gomme et palette de couleurs adaptés au doigt comme à la souris.',
+      'Traits synchronisés en temps réel sans surcharger la connexion mobile.',
+      'Score calculé côté serveur avec bonus de rapidité et classement final.',
+    ],
+    cta: 'Préparer une partie',
+  },
+  pwa: {
+    heading: 'Installable sur Android et navigateur',
+    description:
+      'Ajoutez PartyPlay à votre écran d’accueil pour un lancement plein écran instantané. Une connexion Internet active reste indispensable pour les parties multijoueurs.',
+    installButton: 'Installer PartyPlay',
+    installedNote: 'Application installée sur cet appareil.',
+    iosButton: 'Installer sur iPhone / iPad',
+    iosTitle: 'Installer PartyPlay sur iOS',
+    iosStep1: 'Appuyez sur le bouton Partager dans la barre Safari.',
+    iosStep2: 'Faites défiler et choisissez Sur l’écran d’accueil.',
+    iosClose: 'Fermer',
+    browserFallback:
+      'Sur Android Chrome ou Edge, ouvrez le menu du navigateur puis choisissez « Ajouter à l’écran d’accueil » ou « Installer l’application ».',
+    offlineTitle: 'Connexion Internet interrompue',
+    offlineMessage:
+      'L’interface reste accessible, mais les salles multijoueurs nécessitent une connexion active.',
+  },
+  profile: {
+    heading: 'Identité du joueur',
+    subtitle: 'Mode invité instantané enregistré sur cet appareil.',
+    nicknameLabel: 'Pseudonyme',
+    nicknamePlaceholder: 'Ex. Kofi, Awa, Sam...',
+    nicknameError: 'Le pseudonyme doit contenir entre 2 et 16 caractères.',
+    avatarLabel: 'Avatar prédéfini',
+    colorLabel: 'Couleur de l’avatar',
+    ecoLabel: 'Mode graphique réduit',
+    ecoHint: 'Recommandé sur smartphone Android modeste pour préserver batterie et fluidité.',
+    savedNotice: 'Profil enregistré localement.',
+  },
+  room: {
+    backHome: 'Retour à l’accueil',
+    createTab: 'Créer une salle',
+    joinTab: 'Rejoindre avec un code',
+    createTitle: 'Créer une salle privée',
+    createDescription:
+      'Capacité de 2 à 6 joueurs. Vous serez l’hôte de la salle et pourrez partager un code unique ou un lien d’invitation.',
+    createButton: 'Créer la salle',
+    joinTitle: 'Rejoindre une salle existante',
+    joinDescription:
+      'Saisissez le code d’invitation à 6 caractères partagé par l’hôte de la partie.',
+    codeLabel: 'Code d’invitation',
+    codePlaceholder: 'A7K9P2',
+    codeInvalid: 'Entrez un code valide de 6 caractères (lettres et chiffres).',
+    joinButton: 'Rejoindre la salle',
+    connecting: 'Connexion au serveur…',
+    inspectLobbyButton: 'Aperçu solo du salon 3D',
+  },
+  liveLobby: {
+    inviteCodeLabel: 'Code de la salle',
+    copyCode: 'Copier le code',
+    copiedCode: 'Code copié',
+    shareLink: 'Partager le lien',
+    copiedLink: 'Lien copié',
+    participants: 'Participants',
+    hostTag: 'Hôte',
+    youTag: 'Vous',
+    reconnectingTag: 'Reconnexion…',
+    startGame: 'Démarrer la partie',
+    needMorePlayers: 'En attente d’au moins 2 joueurs connectés pour démarrer.',
+    waitingHost: 'En attente du lancement par l’hôte…',
+    leaveRoom: 'Quitter la salle',
+    connectionLost: 'Connexion au serveur interrompue. Nouvelle tentative…',
+  },
+  lobby3d: {
+    backToRoom: 'Retour à la configuration',
+    title: 'Salon virtuel 3D',
+    subtitle: 'Faites glisser pour tourner la caméra · Pincez ou utilisez la molette pour zoomer',
+    ecoToggle: 'Mode éco 3D',
+    resetCamera: 'Recentrer',
+    seatsLabel: 'Places affichées',
+    loading: 'Chargement de la scène 3D…',
+    phaseNote: 'Aperçu solo du salon 3D avec votre avatar local.',
+  },
+  drawGuess: {
+    roundLabel: 'Manche',
+    wordToDraw: 'Mot à dessiner',
+    drawingBy: 'Dessin de',
+    lettersCount: 'lettres',
+    penTool: 'Crayon',
+    eraserTool: 'Gomme',
+    clearCanvas: 'Tout effacer',
+    guessPlaceholder: 'Tapez votre réponse…',
+    guessSubmit: 'Envoyer',
+    alreadyGuessed: 'Mot trouvé ! Attendez la fin de la manche.',
+    drawerHint: 'Dessinez le mot secret sans écrire de lettres ni de chiffres.',
+    revealedWordPrefix: 'Le mot secret était',
+    nextRoundSoon: 'Manche suivante dans quelques secondes…',
+    scoresHeading: 'Scores',
+    guessesHeading: 'Propositions',
+    foundWordBanner: 'a trouvé le mot !',
+    finalHeading: 'Classement final',
+    finalSubtitle: 'Partie terminée. Merci d’avoir joué ensemble !',
+    playAgain: 'Rejouer une partie',
+    waitingHostReplay: 'En attente de l’hôte pour relancer une partie…',
+    leaveGame: 'Quitter la salle',
+  },
+  footer: {
+    tagline: 'PartyPlay · Plateforme de mini-jeux multijoueurs en temps réel',
+    note: 'Connexion Internet requise pour jouer en salle.',
+  },
+} as const;
+
+export type TranslationDictionary = typeof fr;

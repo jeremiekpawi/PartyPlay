@@ -1,0 +1,6 @@
+{
+  "name": "PartyPlay",
+  "description": "Plateforme de mini-jeux multijoueurs en temps réel avec lobby 3D et PWA installable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
